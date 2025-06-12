@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Buddhatitude Spa - Dakar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Buddhatitude Spa</h1>
+    <p>Détente & Bien-être au cœur de Dakar</p>
+  </header>
+
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Galerie</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>À propos</h2>
+    <p>Situé au cœur de Dakar, Buddhatitude Spa vous propose un univers de calme, de luxe et de soins ressourçants inspirés d’Asie.</p>
+  </section>
+
+  <section id="services">
+    <h2>Nos Services</h2>
+    <ul>
+      <li>Massages traditionnels & thérapeutiques</li>
+      <li>Hammam & soins du corps</li>
+      <li>Soins du visage</li>
+      <li>Relaxation & bien-être global</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Galerie</h2>
+    <div class="gallery">
+      <img src="https://source.unsplash.com/400x300/?spa" alt="Spa 1" />
+      <img src="https://source.unsplash.com/400x300/?massage" alt="Massage" />
+      <img src="https://source.unsplash.com/400x300/?relax" alt="Relaxation" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📍 Almadies, Dakar, Sénégal</p>
+    <p>📞 +221 77 123 45 67</p>
+    <p>📧 contact@buddhatitude.sn</p>
+
+    <form>
+      <input type="text" placeholder="Nom" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Votre message"></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+
+    <iframe
+      src="https://maps.google.com/maps?q=almadies%20dakar&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      frameborder="0"
+      allowfullscreen=""
+      loading="lazy"
+    ></iframe>
+  </section>
+
+  <footer>
+    <p>© 2025 Buddhatitude Spa - Dakar. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
